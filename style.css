@@ -1,0 +1,64 @@
+
+/* Style général du formulaire */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 500px;
+}
+
+/* Style des labels */
+label .montant {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style des champs de saisie */
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style du bouton "Convertir" */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 140px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style du bouton "Convertir" au survol */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style de la liste d'historique */
+ul.conversion-history {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style des éléments de l'historique */
+ul.conversion-history li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style du titre de la date */
+ul.conversion-history li.date-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
